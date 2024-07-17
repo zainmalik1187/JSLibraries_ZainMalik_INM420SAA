@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- CSS REFERENCE -->
+    <!-- Required Core stylesheet -->
+    <link rel="stylesheet" href="css/glide.core.css">
+    <!-- Optional Theme stylesheet -->
+    <link rel="stylesheet" href="css/glide.theme.css">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="css/lightbox.css">
+
+<body>
+  <!-- header nav menu -->
+    <header id="main-header" class="lavalamp-menu">
+        <nav>
+          <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#locations">Locations</a></li>
+          </ul>
+          <div class="lavalamp"></div>
+        </nav>
+      </header>
+    
+      <main>
+        <!-- home takes you to hero section -->
+        <section id="home">
+          <div class="inner">
+            <h1>FURNIFY Furniture Store</h1>
+            <canvas id="canvas-basic"></canvas>
+          </div>
+        </section>
+    
+        <!-- shop section, lists all products -->
+        <section id="shop">
+          <div class="inner">
+            <h1>Furniture Catalog</h1>
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                              <a href="images/product1.jpg" data-lightbox="product_zoom">
+                                  <img src="images/product1.jpg" alt="Product 1">
+                              </a>
+                          </li>
+                          <li class="glide__slide">
+                              <a href="images/product2.jpg" data-lightbox="product_zoom">
+                                  <img src="images/product2.jpg" alt="Product 2">
+                              </a>
+                          </li>
+                          <li class="glide__slide">
+                              <a href="images/product3.jpg" data-lightbox="product_zoom">
+                                  <img src="images/product3.jpg" alt="Product 3">
+                              </a>
+                          </li>
+                          <li class="glide__slide">
+                              <a href="images/product4.jpg" data-lightbox="product_zoom">
+                                  <img src="images/product4.jpg" alt="Product 4">
+                              </a>
+                          </li>
+                          <li class="glide__slide">
+                              <a href="images/product5.jpg" data-lightbox="product_zoom">
+                                  <img src="images/product5.jpg" alt="Product 5">
+                              </a>
+                          </li>
+                          <li class="glide__slide">
+                              <a href="images/product6.jpg" data-lightbox="product_zoom">
+                                  <img src="images/product6.jpg" alt="Product 6">
+                              </a>
+                          </li>
+                        </ul>
+                    </div>
+                
+                    <!-- arrows for image changing -->
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+                    </div>
+                </div>
+              <button class="add-item-button">Add Item</button>
+          </div>
+      </section>
+    
+        <!-- section for locations -->
+        <section id="locations">
+          <div class="inner">
+          </div>
+        </section>
+    
+      </main>
+
+      <!-- all js links -->
+    <script src="js/menuspy.js"></script>
+    <script src="js/granim.js"></script>
+    <script src="js/glide.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+
+</html>
